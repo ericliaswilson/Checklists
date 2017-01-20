@@ -6,11 +6,7 @@ var items = [ChecklistItem]()
 
 class ChecklistViewController: UITableViewController {
     
-    //var items: [ChecklistItem]
-    
     required init?(coder aDecoder: NSCoder) {
-        //items = [ChecklistItem]()
-        
         let row0item = ChecklistItem()
         row0item.text = "Walk the dog"
         row0item.checked = false
